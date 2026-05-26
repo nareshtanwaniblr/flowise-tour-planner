@@ -9,6 +9,6 @@ services:
       - key: PORT
         value: 3000
       - key: DATABASE_URL
-        value: postgresql://postgres:[N@re5hsupabase]@db.qpjshbusujoyptbmtuqd.supabase.co:5432/postgres
+        value: postgresql://postgres:[N%40re5hsupabase]@db.qpjshbusujoyptbmtuqd.supabase.co:5432/postgres
       - key: OPENAI_API_KEY
         value: <your-openai-api-key>
